@@ -1,0 +1,16 @@
+{
+    "name": "purescript-cip30-mock",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mlabs-haskell/purescript-cip30-mock.git"
+    },
+    "scripts": {
+        "test": "spago test"
+    },
+    "dependencies": {},
+    "prettier": {
+        "arrowParens": "avoid",
+        "trailingComma": "none"
+    }
+}
