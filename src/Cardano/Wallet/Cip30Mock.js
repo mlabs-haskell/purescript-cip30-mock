@@ -34,7 +34,7 @@ export function injectCip30Mock(walletName) {
             signTx: mock.signTx,
             signData: mock.signData,
             cip95: {
-              getPubDrepKey: mock.getPubDrepKey,
+              getPubDRepKey: mock.getPubDrepKey,
               getRegisteredPubStakeKeys: mock.getRegisteredPubStakeKeys,
               getUnregisteredPubStakeKeys: mock.getUnregisteredPubStakeKeys,
               signData: mock.signData,
