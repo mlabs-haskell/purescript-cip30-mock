@@ -25,6 +25,9 @@ type Cip30Mock =
   , signTx :: String -> Promise String
   , signData ::
       Fn2 String String (Promise { key :: String, signature :: String })
+  , getPubDrepKey :: Effect (Promise String)
+  , getRegisteredPubStakeKeys :: Effect (Promise (Array String))
+  , getUnregisteredPubStakeKeys :: Effect (Promise (Array String))
   }
 
 -- returns an action that removes the mock.

@@ -32,7 +32,14 @@ export function injectCip30Mock(walletName) {
             getChangeAddress: mock.getChangeAddress,
             getRewardAddresses: mock.getRewardAddresses,
             signTx: mock.signTx,
-            signData: mock.signData
+            signData: mock.signData,
+            cip95: {
+              getPubDrepKey: mock.getPubDrepKey,
+              getRegisteredPubStakeKeys: mock.getRegisteredPubStakeKeys,
+              getUnregisteredPubStakeKeys: mock.getUnregisteredPubStakeKeys,
+              signData: mock.signData,
+              signTx: mock.signTx
+            }
           })
         );
       }
