@@ -9,6 +9,9 @@
         "test": "spago test"
     },
     "dependencies": {},
+    "devDependencies": {
+        "doctoc": "^2.2.1"
+    },
     "prettier": {
         "arrowParens": "avoid",
         "trailingComma": "none"
